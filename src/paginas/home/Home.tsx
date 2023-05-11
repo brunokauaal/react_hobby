@@ -1,7 +1,7 @@
-function Hobby() {
+function Home() {
 
 
-               //          OBS: O ARQUIVO OFICIAL ESTA NO HOBY.TSX                                                
+               //          OBS: O ARQUIVO OFICIAL ESTA NO HOBY.TSXG                                                
     return (
         <>
             <nav>
