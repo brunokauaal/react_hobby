@@ -1,0 +1,50 @@
+:root {
+
+     /*Cores de Fundo*/
+
+     --cordefundoda-pagina: #333333;
+    --cordefundodo-nav:black;
+
+
+
+}
+
+
+body {
+    background-color: var(--cordefundoda-pagina);
+}
+
+
+.titulo{
+
+    text-align: center;
+    color: red;
+
+}
+.img {
+
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+nav{
+
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    background-color: var(--cordefundodo-nav);
+    box-shadow: 2px 2px 5px var(--gray);
+    font-size: 1.5rem;
+    
+    padding: 2.25rem 1.5rem;
+}
+
+main {
+
+    width: 80vw;
+    margin: 0 auto;
+
+}
