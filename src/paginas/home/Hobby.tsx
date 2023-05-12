@@ -11,7 +11,7 @@ function Hobby() {
 
                     <span className='titulo'>Bruno</span>
 
-                        <img id='logo' src="https://th.bing.com/th/id/OIP.JnZNQnDtXsgXncXEAh-J-gHaG7?pid=ImgDet&rs=1" alt="foto do ronie coleman" />
+                    <img id='logo' src="https://th.bing.com/th/id/OIP.JnZNQnDtXsgXncXEAh-J-gHaG7?pid=ImgDet&rs=1" alt="foto do ronie coleman" />
 
                 </div>
 
@@ -34,11 +34,12 @@ function Hobby() {
                 </section>
             </main>
 
-        <footer>
+            <footer>
+                <div id='rodapé'>
+                <p className='by'>Desenvolvido por: Bruno Kauã - 2023 &copy;</p>
 
-
-
-        </footer>
+                </div>
+            </footer>
 
 
         </>

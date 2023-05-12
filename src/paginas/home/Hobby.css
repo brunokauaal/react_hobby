@@ -1,9 +1,9 @@
 :root {
 
-     /*Cores de Fundo*/
+    /*Cores de Fundo*/
 
-     --cordefundoda-pagina: #333333;
-    --cordefundodo-nav:black;
+    --cordefundoda-pagina: #333333;
+    --cordefundodo-nav: black;
     --corfundofoto-cinza: grey;
 
 
@@ -16,7 +16,7 @@ body {
 }
 
 
-.titulo{
+.titulo {
 
     text-align: center;
     color: white;
@@ -25,7 +25,7 @@ body {
 }
 
 
-nav{
+nav {
 
     margin: 0 auto;
     width: 80vw;
@@ -42,17 +42,18 @@ main {
 
     width: 80vw;
     margin: 0 auto;
+    padding: 20px;
 
 }
 
-.texto_sobre{
+.texto_sobre {
 
     margin: 1.75rem;
 
 
 }
 
-#sobre{
+#sobre {
 
     display: flex;
     align-items: center;
@@ -60,19 +61,20 @@ main {
     background-color: white;
     border-radius: 1rem;
     text-align: justify;
+    
 
 
 }
 
-.img{
+.img {
 
     width: 230px;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px  var(--corfundofoto-cinza);
+    box-shadow: 3px 3px 5px var(--corfundofoto-cinza);
     margin-top: 1rem;
 }
 
-#video{
+#video {
 
     width: 300px;
     display: flex;
@@ -80,12 +82,48 @@ main {
     border-radius: 20px;
 }
 
-#logo{
+#logo {
 
     margin: 0 auto;
     width: 200px;
     height: 200px;
     display: flex;
 
+
+}
+
+
+.by {
+    display: flex;
+    padding-top: 0.75rem;
+    font-size: 1.25rem;
+    color: red;
+    font-size: 1rem;
+
+}
+
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+    cursor: pointer;
     
+}
+
+footer{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+
+    /* Alinha os elementos um em cada linha */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corfundofoto-cinza);
+    border-radius: 20px;
+    
+
 }
