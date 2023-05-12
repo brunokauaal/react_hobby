@@ -7,7 +7,7 @@ return (
  <nav>
      <div>
 
-         <span className='titulo'>Bruno</span>
+         <span className='titulo'>Bruno Carvalho</span>
      </div>
 
  </nav>

@@ -10,6 +10,9 @@ function Hobby() {
                 <div>
 
                     <span className='titulo'>Bruno</span>
+
+                        <img id='logo' src="https://th.bing.com/th/id/OIP.JnZNQnDtXsgXncXEAh-J-gHaG7?pid=ImgDet&rs=1" alt="foto do ronie coleman" />
+
                 </div>
 
             </nav>
