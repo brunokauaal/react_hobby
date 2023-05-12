@@ -4,6 +4,7 @@
 
      --cordefundoda-pagina: #333333;
     --cordefundodo-nav:black;
+    --corfundofoto-cinza: grey;
 
 
 
@@ -18,17 +19,10 @@ body {
 .titulo{
 
     text-align: center;
-    color: red;
-
-}
-.img {
-
-    width: 500px;
-    height: 500px;
-    display: block;
+    color: white;
     margin: 0 auto;
-
 }
+
 
 nav{
 
@@ -36,9 +30,9 @@ nav{
     width: 80vw;
     display: flex;
     background-color: var(--cordefundodo-nav);
-    box-shadow: 2px 2px 5px var(--gray);
+    box-shadow: 2px 2px 5px var(--corfundofoto-cinza);
     font-size: 1.5rem;
-    
+    border-radius: 20px;
     padding: 2.25rem 1.5rem;
 }
 
@@ -47,4 +41,39 @@ main {
     width: 80vw;
     margin: 0 auto;
 
+}
+
+.texto_sobre{
+
+    margin: 1.75rem;
+
+
+}
+
+#sobre{
+
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: justify;
+
+
+}
+
+.img{
+
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px  var(--corfundofoto-cinza);
+    margin-top: 1rem;
+}
+
+#video{
+
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
 }
